@@ -1,0 +1,74 @@
+body{
+
+	background-image: url("footderue.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container{
+	width: 500px;
+	height: 700px;
+	text-align: center;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 10px;
+	margin-bottom: 50px;
+	top: 5%;
+	left: 50%;
+
+}
+
+/* .container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+} */
+
+input[type="text"],input[type="password"]{
+	margin-top: 15px;
+	height: 30px;
+	width: 200px;
+	font-size: 12px;
+	margin-bottom: 5px;
+	background-color: #fff;
+	padding-left: 60px;
+}
+input[type="Number"],input[type="Adresse"]{
+	margin-top: 15px;
+	height: 25px;
+	width: 200px;
+	font-size: 12px;
+	margin-bottom: 5px;
+	background-color: #fff;
+	padding-left: 60px;
+}
+
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+    table, th, td { 
+        border: 2px solid black;
+        border-collapse: collapse;
+        background : transparent;
+    }
+    th, td {
+        padding: 12px;
+    }
+
+
+/* .btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+} */
